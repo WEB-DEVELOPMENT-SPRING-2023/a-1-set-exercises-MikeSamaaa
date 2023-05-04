@@ -1,0 +1,105 @@
+header {
+    font-family: Tahoma;
+    text-align: center;
+    color: white;
+    background: #17072b;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Tahoma;
+}
+
+nav {
+    font-family: Tahoma;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-family: Tahoma;
+}
+
+.article{
+    margin-left: 30px;
+    float: left;
+}
+
+.content{
+    height: 283px;
+    width: 760px;
+}
+
+section{
+    font-size: 20.8px;
+    font-weight: 530;
+    margin-bottom: 15px;
+}
+
+.aside{
+    display: block;
+    background: #172d67;
+    color: white;
+    float: right;
+    height: 470px;
+    width: 430px;
+    margin-top: 10px;
+    font-family: arial;
+}
+
+.aside img{
+    height: 190px;
+    width: 190px;
+    margin-top: 38px;
+}
+
+.image1{
+    margin-left: 22px;
+}
+
+.image2{
+    margin-left: 2px;
+}
+
+.aside p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aside h2{
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background: #8c15e9;
+    color: white;
+    float: right;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 520;
+    font-family: Tahoma;
+}

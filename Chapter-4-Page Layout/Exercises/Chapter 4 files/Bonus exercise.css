@@ -1,0 +1,97 @@
+header{
+    text-align: center;
+    background-color: maroon;
+    padding: 20px;
+}
+
+.title_of_quote{
+    font-size: 20px;
+}
+
+.title_of_quote p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Quote{
+    float: left;
+}
+
+.Quote img{
+    width: 650px;
+    height: 446px;
+}
+
+h1{
+    color: white;
+    font-family: Tahoma;
+}
+
+nav a{
+    margin: 20px;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 21px;
+}
+.aside{
+    float: right;
+    margin-right: 0;
+    margin-top: 10px;
+    background-color: #C9C7FF;
+    width: 40%;
+    display: block;
+    height: 500px;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 200px;
+    height: 100px;
+    text-indent: 10px;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.Schedule ul li{
+    line-height: 1.5;
+}
+
+.Schedule ul li a{
+    color:black;
+}
+
+.Deadlines p{
+    text-indent: 20px;
+    font-weight:bold;
+    color: red;
+    border: 2px solid black;
+    padding: 10px;
+    background-color:white
+}
+
+footer{
+    text-align: center;
+    background: #172d67;
+    width: 100%;
+    float: right;
+    height: 45px;
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: 18px;
+    font-family: Tahoma;
+    font-weight: 600;
+    color: white;
+}
