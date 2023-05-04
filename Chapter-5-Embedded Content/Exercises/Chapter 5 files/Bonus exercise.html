@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bonus exercise.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function start_sound(id) {
+          var audio = new Audio(id + ".mp3");
+          audio.play();
+        }
+    </script>
+    <h1>Audio Sampler</h1>
+    <div class="soundboard">
+        <button id="ah-ha" onClick="start_sound(id)">10<br />Ah-Ha<br />1.4</button>
+        <button id="dan" onClick="start_sound(id)">11<br />Dan<br />0.5</button>
+        <button id="back-of-the-net" onClick="start_sound(id)">12<br />Back of the net<br />1.02</button>
+        <button id="Bangoutoforder" onClick="start_sound(id)">13<br />Bang out of order<br />1.38</button>
+        <button id="emailoftheevening" onClick="start_sound(id)">14<br />Email of the evening<br />1.49</button>
+        <button id="hellopartridge" onClick="start_sound(id)">15<br />Hello partridge<br />1.91</button>
+        <button id="iateascotchegg" onClick="start_sound(id)">16<br />I ate a scotch egg<br />1.49</button>
+        <button id="imconfused" onClick="start_sound(id)">17<br />I'm confused<br />1.07</button>
+        <button id="wooden-thud" onClick="start_sound(id)">18<br />Wooden thud<br />2.25</button>
+    </div>
+
+</body>
+</html>
