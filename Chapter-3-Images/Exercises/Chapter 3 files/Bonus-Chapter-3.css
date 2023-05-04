@@ -1,0 +1,42 @@
+.shapes{
+    display: flex;
+    
+}
+
+.a{
+    border: 4px solid darkviolet;
+    box-shadow: 9px 9px 10px red;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 25px;
+}
+
+.b{
+    border: 5px solid lime;
+    box-shadow: inset 10px 10px 10px black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 25px;
+}
+
+.c{
+    border: 5px solid orange;
+    border-radius: 20px;
+    box-shadow: 0 0 0 10px blue, 0 0 0 20px red, 0 0 0 30px green;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 25px;
+}
+
+.d{
+    border: 4px solid brown;
+    text-shadow: 4px 4px 1px black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 25px;
+}
+
