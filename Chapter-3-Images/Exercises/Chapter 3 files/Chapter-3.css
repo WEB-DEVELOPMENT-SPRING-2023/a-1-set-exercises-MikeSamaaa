@@ -1,0 +1,12 @@
+.Cars{
+    filter: grayscale(100%)
+}
+
+img{
+    width: 300px;
+    justify-content: center;
+}
+
+figcaption{
+    width: 300px;
+}

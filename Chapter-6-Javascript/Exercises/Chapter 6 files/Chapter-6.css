@@ -1,0 +1,27 @@
+input[type=text]:focus{
+    background-color: lightblue;
+}
+
+input[type=text]{
+    padding: 5px;
+}
+
+form, .PetrolCalculator{
+    line-height: 3.0;
+    letter-spacing: 1.0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type=button]{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+}
+
+input[type=button]:hover{
+    color: orange;
+    background-color: black;
+}

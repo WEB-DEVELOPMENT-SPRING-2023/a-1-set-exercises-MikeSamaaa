@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.text{
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+
+.header{
+    background: bisque;
+    padding: 20px;
+}
+
+.steps{
+    font-size:18px;
+}

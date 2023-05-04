@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Chapter 1 Bonus exercise.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS TAGS</title>
+</head>
+<body>
+    <h1>HTML TAGS</h1>
+    <h2>HTML ATTRIBUTES:<h2>
+    <h2>1. <code>&lt;img&gt;</code> tag</h2>
+    <p>-The <font color=red>&lt;img&gt;</font> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:</p>
+    <pre>Example:
+
+            &lt;img src="car.jpg"&gt;
+    </pre>
+    <h2>2. <code>&lt;a&gt;</code> tag</h2>
+    <p>-The <font color=red>&lt;a&gt;</font> defines a hyperlink. The href attribute specifies the URL of the page the link goes to:</p>
+    <pre>Example:
+
+            &lt;a href=<font color=blue>"https://www.facebook.com/"</font>>Facebook&lt;/a&gt;
+    </pre>
+
+    <h2>3. <code>&lt;alt&gt;</code> tag</h2>
+    <p>-The <font color=red>&lt;alt&gt;</font> The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.</p>
+    <pre>Example:
+
+            &lt;img src="boy.jpg" alt="Boy with a jacket"&gt;
+    </pre>
+
+    <h2>4. <code>&lt;style&gt;</code> tag</h2>
+    <p>-The <font color=red>style</font> attribute is used to add styles to an element, such as color, font, size, and more.</p>
+    <pre>Example:
+
+            &lt;p style="color:red;">This is a red.&lt;/p&gt;
+    </pre>
+
+    <h2>5. <code>&lt;br&gt;</code> tag</h2>
+    <p>-The <font color=red>&lt;br&gt;</font> tag defines a line break, and is an empty element without a closing tag:</p>
+    <pre>Example:
+
+            &lt;p&gt;This is a &lt;br&gt; paragraph with a line break.&lt;/p&gt;
+    </pre>
+    
+    <h2>HTML ELEMENTS:</h2>
+    <h2>6. <code>&lt;p&gt;</code> tag</h2>
+    <p>The <font color=red>&lt;p&gt;</font> element defines a paragraph. It has a start tag &lt;p&gt; and an end tag &lt;/p&gt;:
+    <pre>Example:
+
+            &lt;p&gt;This is a &lt;br&gt; paragraph with a line break.&lt;/p&gt;
+    </pre>
+    <h2>HTML TEXT FORMATTING:</h2>
+    <h2>7. <code>&lt;b&gt;</code> tag</h2>
+    <p>The HTML <font color=red>&lt;b&gt;</font> element defines bold text, without any extra importance.
+    <pre>Example:
+
+            &lt;b&gt;<b>This text is bold</b>&lt;/b&gt;
+    </pre>
+
+    <h2>8. <code>&lt;i&gt;</code> tag</h2>
+    <p>The HTML <font color=red>&lt;i&gt;</font> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+    <pre>Example:
+
+            &lt;i&gt;<i>This text is italic</b></i>&lt;/i&gt;
+    </pre>
+
+    <h2>9. <code>&lt;small&gt;</code> tag</h2>
+    <p>The HTML <font color=red>&lt;small&gt;</font> element defines smaller text:
+    <pre>Example:
+
+            &lt;small&gt;<small>This is some smaller text.</small>&lt;small&gt;
+    </pre>
+
+    <h2>10. <code>&lt;del&gt;</code> tag</h2>
+    <p>The HTML <font color=red>&lt;del&gt;</font> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:</p>
+    <pre>Example:
+
+            &lt;p&gt;My favorite color is &lt;del&gt;<del>blue</del>&lt;/del&gt; red.</p>
+    </pre>   
+
+    <div class="css">CSS PROPERTIES</div>
+    <h2> 1. <code>External CSS</code></h2>
+    <p>With an external style sheet, you can change the look of an entire website by changing just one file! Each HTML page must include a reference to the external style sheet file inside the  &lt;link&gt; element, inside the head section.</p>
+    <pre>Example:
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+        &lt;link rel="stylesheet" href=<font color=blue>"mystyle.css"</font>&gt;
+        &lt;head&gt;
+        &lt;body&gt;
+     </pre>   
+
+    <h2> 2. <code>CSS comments</code></h2>
+    <p>Comments are used to explain the code, and may help when you edit the source code at a later date. Comments are ignored by browsers. A CSS comment is placed inside the &lt;style&gt; element, and starts with <font color=red>/&#42;</font>and ends with<font color=red>&#42;/</font>:</p>
+    <pre>Example:
+
+        <font color=green>/* This is a single-line comment */</font>
+     </pre>
+
+     <h2> 3. <code>CSS text colors</code></h2>
+    <p>You will be able to change the color of your text:</p>
+    <pre>Example:
+
+        &lt;div class="color" style="color: blue;"&gt;Hello World&lt;/div&gt;
+
+Output:
+        <div class=color style="color:blue;">Hello World</div>
+    </pre>
+
+    <h2> 4. <code>CSS border colors</code></h2>
+    <p>You can set the border colors:</p>
+    <pre>Example:
+
+        &lt;div class="color" style="border:3px solid blue;"&gt;Hello World&lt;/div&gt;
+
+Output:
+        <div class=color style="border:3px solid blue;">Hello World</div>
+    </pre>
+
+    <h2> 5. <code>CSS outlines</code></h2>
+    <p>You can set the border colors:</p>
+    <pre>Example:
+
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+        .bgcolor {
+                border: 3px solid black;
+                outline: #800080 solid 9px;
+                padding: 19px;
+                text-align: center;
+        }
+        &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &lt;div&gt; class="bgcolor">This element has a 3px black border and a violet outline with a width of 9px&lt;/div&gt;
+
+Output:
+<style>
+.bgcolor {
+        border: 3px solid black;
+        outline: #800080 solid 9px;
+        padding: 19px;
+        text-align: center;
+}
+</style>
+<div class="bgcolor">This element has a 3px black border and a violet outline with a width of 9px</div>
+    </pre>
+
+    <h2> 6. <code>CSS text alignment</code></h2>
+    <p>The text-align property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified. The following example shows center aligned, and left and right aligned text (left alignment is default if text direction is left-to-right, and right alignment is default if text direction is right-to-left):</p>
+    <pre>Example:
+
+        &lt;div class="alignment1">Center Michael&lt;/div&gt;
+        &lt;div class="alignment2">Left Michael&lt;/div&gt;
+        &lt;div class="alignment3">RightMichael&lt;/div&gt;
+
+Output:
+<div class="alignment1">Center Michael</div>
+
+<div class="alignment2">Left Michael</div>
+
+<div class="alignment3">Right Michael</div>
+
+    </pre>
+
+    <h2> 7. <code>The CSS font family property</code></h2>
+    <p>In CSS, we use the font-family property to specify the font of a text.</p>
+    <pre>Example:
+
+        &lt;p class="p1">This is a paragraph, shown in the Times New Roman font.&lt;/p>
+        &lt;p class="p2">This is a paragraph, shown in the Arial font.&lt;/p>
+
+Output:
+
+<p class="p1">This is a paragraph, shown in the Times New Roman font.<p>
+<p class="p2">This is a paragraph, shown in the Arial font.</p>
+    </pre>
+
+    <h2> 8. <code>CSS margins</code></h2>
+    <p>In CSS, we use the font-family property to specify the font of a text.</p>
+    <ul>
+        <li>margin-top</li>
+        <li>margin-right</li>
+        <li>margin-bottom</li>
+        <li>margin-left</li>
+    </ul>
+    <pre>Example:
+        &lt;div class="margin1">margin-top&lt;/div> <font color = "green">/* margin-top is set to 20px /*</font>
+        &lt;div class="margin2">margin-right&lt;/div> <font color = "green">/* margin-right is set to 50px /*</font>
+        &lt;div class="margin3">margin-bottom&lt;/div> <font color = "green">/* margin-bottom is set to 20px /*</font>
+        &lt;div class="margin4">margin-left&lt;/div> <font color = "green">/* margin-left is set to 20px /*</font>
+Output:
+
+<div class="margin1">margin-top</div>
+<div class="margin2">margin-right</div>
+<div class="margin3">margin-bottom</div>
+<div class="margin4">margin-left</div>
+    </pre>
+
+
+
+
+
+</body>
+</html>
